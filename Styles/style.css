@@ -1,0 +1,174 @@
+body {
+    background-color: lightgrey;
+    margin: 0;
+}
+nav {
+    background-color: lightblue;
+    padding: 10px 35px 15px 25px;
+    text-align: right;
+    }
+nav a{
+    padding: 11px 10px;
+    text-decoration: none;
+    color: maroon;
+}
+.container{
+  margin: auto;
+  width:  100%;
+}
+.logo {
+  text-align: left;
+  display: inline-block;
+  width: 33%;
+}
+.menu {
+  display: inline-block;
+  width: 60%;
+    }
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    margin: 0;
+    padding: 100px 0;
+    text-transform: uppercase;
+
+    }
+.hero h1 span {
+    border: 5px double white;
+    padding: 15px;
+}
+
+.hero {
+    background-image: url("../miskas.jpg");
+    background-repeat: none;
+    background-size: auto;
+    width: 100%;
+    height: 500px;
+    }
+.btn {
+   margin: 0 auto;
+   width: 10%;
+}
+.button{
+    float: center;
+    background-color: lightblue;
+  }
+.containers2 {
+  width: 20%;
+  margin: auto;
+  justify-content: center;
+  }
+.text {
+  margin-top: -80px;
+  text-align: justify;
+}
+.containers-main {
+  width: 100%;
+  margin: auto;
+  margin-top: 40px;
+  display:flex;
+  justify-content: center;
+  }
+.cont {
+  width: 20%;
+  margin: 5px;
+  float: left;
+}
+.icon{
+  text-align: center;
+}
+.para {
+  margin-top: -20px;
+}
+.photos {
+  width: 100%;
+  margin: 20px, auto;
+  }
+.pics1{
+ display: inline-block;
+ padding: 10px;
+ margin: 20px;
+}
+.pics2{
+  display: inline-block;
+  padding: 10px;
+  margin: 20px;
+  }
+.pics3{
+  display: inline-block;
+  padding: 10px;
+  margin: 20px;
+}
+.foto {
+  padding: 15px;
+}
+.container-flex{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: DodgerBlue;
+}
+.container-flex > div{
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-pics{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  flex: 45%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+.row img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%
+}
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  width: 1200px;
+  margin: auto;
+  margin-top: 40px;
+}
+.column{
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+.contacts{
+  width: 10%;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.btnavbar {
+  background-color: lightblue;
+  padding: 10px 25px 15px 25px;
+  bottom: 0;
+  width: auto;
+  margin-top: 400px;
+}
+.btnavbar a{
+ padding: 11px 10px;
+ text-decoration: none;
+ color: maroon;
+ float: left;
+ }
+.btnavbar a:hover{
+  background-color: CornflowerBlue;
+  color: black;
+  padding: 10px;
+  }
