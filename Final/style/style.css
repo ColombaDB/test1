@@ -1,0 +1,24 @@
+.carousel-indicators > li {
+  border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
+.heading{
+  margin-top: 30px;
+  margin-bottom: 30px !important;
+}
+.heading-line{
+width: 1100px;
+height: 1px;
+background-color: lightgrey;
+margin: auto;
+}
+.portfolio-heading{
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.btn-padding{
+  padding: 5px 100px;
+  background: white;
+}
